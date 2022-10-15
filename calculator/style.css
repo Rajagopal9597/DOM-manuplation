@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: black;
+}
+.btn{
+    width:100px;
+    height: 50px;
+    font-size: larger;
+    color:  rgb(10, 41, 30);
+    font-weight: 400;
+    padding:2px;
+    background-color: rgb(64, 235, 178);
+    
+}
+.row{
+    padding-top: 5px;
+}
+#clr{
+    margin-top: 10px;
+    width:300px;
+    height:50px;
+    font-size: larger;
+    background-color: rgb(211, 137, 53)
+}
+.display{
+    margin-bottom: 10px;
+    width:300px;
+    height:50px;
+    font-size: xx-large;
+    text-align: left;
+    padding-left: 2%;
+    
+}
+.operation{
+    background-color: rgb(10, 41, 30);
+    color: aliceblue;
+}
+h1{
+    color: aliceblue;
+    padding-bottom: 10px;
+}
