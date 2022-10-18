@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    
+    <title>Shopping cart</title>
+</head>
+<body>
+ <header>
+    <h1>Shopping cart</h1>
+ </header> 
+ <div>
+    
+        <label for="items">Item Name:</label>
+        <input id="item-name" placeholder="Item name" type="text" required>
+    
+    
+        <label for="price">Price:</label>
+        <input id="item-price" placeholder="Item Price" type="number" required>
+    
+    <section>
+        <button id="add-item">Add</button>
+    </section>
+   
+ </div>
+ <div class="table-wrapper">
+    <table class="table">
+        <thead>
+         <tr>
+            <th id="name">Item Name</th>
+            <th id="price">Item price</th>
+         </tr>
+        </thead>
+     <tbody>
+      
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Grand total</td>
+            <td id="grandtotal">0</td>
+        </tr>
+    </tfoot>
+    </table>
+ </div>
+ <script src="func.js"></script>
+</body>
+
+</html>
