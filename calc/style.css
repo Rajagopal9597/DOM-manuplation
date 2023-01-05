@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+
+
+.container{
+    display: flex;
+    width:50rem;
+    height:30rem;
+    box-shadow:0 0 10px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+.logo{
+    color: hsl(183, 100%, 15%);
+    letter-spacing: 5px;
+}
+.logo-container{
+    margin-bottom: 30px;
+}
+#left-container{
+    display:flex;
+    flex-direction: column;
+    float: left;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+    background-color: none;
+}
+.right-container{
+    width:48%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color:  hsl(183, 100%, 15%);
+    border-radius: 10px;
+}
+.bill{
+    color: grey;
+    margin-top: 15px;
+    float: left;
+    margin-left: 10px;
+}
+.text{
+    color: rgb(52, 51, 51);
+    background-color: antiquewhite;
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+    width:16rem;
+    height: 2rem;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: larger;
+}
+.tipbuttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.tips{
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    font-size: xx-large;
+    font-weight: 700;
+    color: azure
+}
+.custom{
+    background-color: antiquewhite;
+    color:rgb(67, 67, 67) ;
+    
+    font-weight: 700;
+    font-size: larger;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.amount{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.row{
+    margin: 15px;
+    color: aliceblue;
+}
+
+.row2{
+    margin: 15px;
+    color: aliceblue;   
+    margin-left: 100px;
+}
+.move {
+   margin-left: 17px;
+}
+
+.reset{
+    margin: 75px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 5px;
+}
+#reset{
+    height: 50px;
+    width:320px;
+    border-radius: 5px;
+    background-color: hsl(184, 14%, 56%);
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.row2 h1{
+    color:hsl(184, 14%, 56%);
+}

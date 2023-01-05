@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" />
+    <title>Tip calculator</title>
+</head>
+<body>
+    <div class="main-container">
+     <div class="logo-container">
+        <h3 class="logo">SPLI</h3>
+        <h3 class="logo">TTER</h3>
+     </div>
+    
+    <div class="container">
+        
+        
+            <div id="left-container">
+                <h3 class="bill">Bill</h3>
+                <input type="number" placeholder="$" onchange="setAmount()" id="bill" class="text"><br>
+                <h3 class="bill">select tip %</h3>
+                <div class="tipbuttons">
+                    <button onclick="Five()" class="tips">5%</button>
+                    <button onclick="Ten()" class="tips">10%</button>
+                    <button onclick="Fifteen()" class="tips">15%</button>
+                    <button onclick="TwentyFive()" class="tips">25%</button>
+                    <button onclick="Fifty()" class="tips">50%</button>
+                    <input type="number" placeholder="custom" onchange="handleCustom()" id="tipGiven" class="tips custom">
+                </div>
+                <h3 class="bill">Number of Peoples</h3>
+                <input type="number" onchange="noOfPerson()" id="person" min="1" class="text">   
+            
+            </div>
+            <div class="right-container">
+             <div class="content">
+                <div class="amount">
+                    <div class="row">
+                        <h2 class="head">Tip Amount</h2>
+                        <h4 class="grey">/person</h4>
+                    </div>
+                    <div class="row2">
+                        <h1>$ <span id="tip">0</span>.00</h1>
+                    </div>
+                    
+                </div>
+                <div class="amount">
+                    <div class="row">
+                        <h2 class="head">Total Cost</h2>
+                        <h4 class="grey">/person</h4>
+                    </div>
+                    <div class="row2">
+                        <h1 class="move">$ <span id="total">0</span>.00</h1>
+                    </div>
+                 </div>
+                <div class="reset">
+                    <button onclick="resetAll()" id="reset">RESET</button>
+                </div>
+                
+             </div>
+            </div>
+        
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
